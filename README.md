@@ -4,6 +4,12 @@ Static marketing preview for Revolution Shirt Works (legal entity Revolution Scr
 
 The current catalog and ordering stay on the InkSoft storefront at [revolutionworks.net](https://revolutionworks.net). This site is the front door for limited drops and custom quotes.
 
+## Public preview
+
+https://rsw-shirt-works-preview.ordinary-pumpkin.workers.dev
+
+Temporary Cloudflare Workers preview (not the production domain). A normal browser may have to clear a short Cloudflare security check. Pages stay `noindex`. Redeploy from this folder with `npx wrangler deploy` after `npx wrangler login`.
+
 ## Preview locally
 
 From this directory:
