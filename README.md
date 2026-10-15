@@ -48,9 +48,8 @@ The honeypot field is `_gotcha`. Hidden subject lines are set for each form.
 
 - Stone Arch pre-order dates, size runs, blank styles, and prices. None are posted.
 - Pickup versus shipping for the drop.
-- Hoodie and tote photographs. This preview shows the limited-drop poster (the tee on press) and the flat Stone Arch art. Separate hoodie and tote flat-lays were not in the project files.
-- Poster lockup says “Revolution Screenworks.” The site uses **Revolution Shirt Works**.
-- “3-color screen print” is the label printed on the sample art.
+- Print spec: how many screens, and the exact ink colors. The hoodie and tote photos show an orange sun, teal, and a cream skyline. That is not a confirmed ink formula.
+- The tee is the same print. There is no separate tee photograph.
 - Turnaround. No number of days is published.
 - PVC- and phthalate-free inks. Confirm the ink still on press. No brand or certification is named.
 - Embroidery. The Instagram bio lists it. Garments and minimums are not confirmed.
@@ -61,6 +60,8 @@ The honeypot field is `_gotcha`. Hidden subject lines are set for each form.
 
 ## Assets
 
-- `assets/promo.webp` and `assets/og.jpg` — limited-drop poster
-- `assets/print.webp` — Stone Arch artwork
+- `assets/wordmark.svg` — Revolution Shirt Works wordmark, used as a CSS mask in the header and footer
+- `favicon.svg` — typographic “RS” mark
+- `assets/og.svg` and `assets/og.jpg` — share image, 1200×630
+- `assets/hoodie.webp` and `assets/tote.webp` — Stone Arch garment photos
 - `assets/squeegee.mp4` — squeegee-pull clip (no audio), with `assets/squeegee-poster.jpg`

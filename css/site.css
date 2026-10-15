@@ -135,21 +135,26 @@ a:hover {
 .wordmark {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  gap: 0.28rem;
   text-decoration: none;
   color: var(--ink);
   line-height: 0.9;
 }
 
-.wordmark:hover {
-  color: var(--ink);
-}
-
-.wordmark__shop {
-  font-family: var(--display);
-  font-weight: 800;
-  font-size: 1.55rem;
-  letter-spacing: 0.01em;
-  text-transform: uppercase;
+.wordmark__mark {
+  display: block;
+  width: 12.25rem;
+  aspect-ratio: 4832 / 1568;
+  background-color: currentColor;
+  -webkit-mask-image: url("../assets/wordmark.svg");
+  mask-image: url("../assets/wordmark.svg");
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-position: left center;
+  mask-position: left center;
 }
 
 .wordmark__place {
@@ -725,8 +730,12 @@ h3 {
   gap: 1.4rem;
 }
 
-.site-footer .wordmark__shop {
-  font-size: 2rem;
+.site-footer .wordmark__mark {
+  width: 15rem;
+}
+
+.site-footer .wordmark__place {
+  color: #c8c1b6;
 }
 
 .site-footer address {
@@ -938,7 +947,7 @@ textarea {
   }
 
   .gallery--two {
-    grid-template-columns: 0.82fr 1.18fr;
+    grid-template-columns: 1fr 1fr;
     align-items: start;
   }
 
