@@ -1,0 +1,16 @@
+{
+  "name": "Revolution Shirt Works",
+  "short_name": "Shirt Works",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#f4efe6",
+  "theme_color": "#1c1a17",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
