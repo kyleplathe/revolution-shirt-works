@@ -6,9 +6,9 @@ The current catalog and ordering stay on the InkSoft storefront at [revolutionwo
 
 ## Public preview
 
-https://rsw-shirt-works-preview.scrawny-ball.workers.dev
+https://revolution-shirt-works.kyleplathe.workers.dev
 
-Temporary Cloudflare Workers preview. Cloudflare names each unauthenticated preview account with a random pair of words, and that name becomes the workers.dev subdomain (`scrawny-ball` on this deploy). The worker name `rsw-shirt-works-preview` comes from `wrangler.jsonc`. A normal browser may have to clear a short Cloudflare security check. Pages stay `noindex`. After `npx wrangler login`, `npx wrangler deploy` publishes on your account's own workers.dev subdomain.
+Workers Builds deploys this repository to the `revolution-shirt-works` Worker. The `name` in `wrangler.jsonc` has to match that Worker, and the file needs a `previews` block, or the build fails. Pushes to `main` publish the Worker above. Other branches get a preview URL. A browser may have to clear a short Cloudflare security check. Pages stay `noindex`.
 
 ## Preview locally
 
