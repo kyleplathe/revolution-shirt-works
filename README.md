@@ -6,11 +6,9 @@ The current catalog and ordering stay on the InkSoft storefront at [revolutionwo
 
 ## Public preview
 
-https://rsw-shirt-works-preview.crimson-macaroon.workers.dev
+https://revolution-shirt-works.kyleplathe.workers.dev
 
-Temporary Cloudflare Workers preview from an unauthenticated deploy. Cloudflare names that account with a random pair of words, and that name becomes the workers.dev subdomain (`crimson-macaroon` on this deploy). A normal browser may have to clear a short Cloudflare security check. Pages stay `noindex`.
-
-The Worker connected to this repository is `revolution-shirt-works`. The `name` in `wrangler.jsonc` has to match that, or Workers Builds fails before it publishes. Pushes to `main` deploy that Worker. Other branches run a preview build.
+Workers Builds deploys this repository to the `revolution-shirt-works` Worker. The `name` in `wrangler.jsonc` has to match that Worker, and the file needs a `previews` block, or the build fails. Pushes to `main` publish the Worker above. Other branches get a preview URL. A browser may have to clear a short Cloudflare security check. Pages stay `noindex`.
 
 ## Preview locally
 
